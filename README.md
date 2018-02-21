@@ -1,6 +1,5 @@
-![Corda](https://www.corda.net/wp-content/uploads/2016/11/fg005_corda_b.png)
 
-# CorDapp Template
+# Alok Bank
 
 Welcome to the CorDapp template. The CorDapp template is a stubbed-out CorDapp 
 which you can use to bootstrap your own CorDapp projects.
@@ -27,11 +26,11 @@ Corda docsite.
 
 To get started, clone this repository with:
 
-     git clone https://github.com/corda/cordapp-template-kotlin.git
+     https://github.com/alokvrm02/chriszer.git
 
 And change directories to the newly cloned repo:
 
-     cd cordapp-template-kotlin
+     cd cordapp-api
 
 ## Building the CorDapp template:
 
@@ -51,19 +50,11 @@ the template for these to take effect on the node.
 Once the build finishes, change directories to the folder where the newly
 built nodes are located:
 
-     cd build/nodes
+     cd build/nodes/runnodes
 
 The Gradle build script will have created a folder for each node. You'll
 see three folders, one for each node and a `runnodes` script. You can
 run the nodes with:
-
-**Unix:**
-
-     ./runnodes --log-to-console --logging-level=DEBUG
-
-**Windows:**
-
-    runnodes.bat --log-to-console --logging-level=DEBUG
 
 You should now have three Corda nodes running on your machine serving 
 the template.
